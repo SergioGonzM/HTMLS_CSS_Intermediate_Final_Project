@@ -1,0 +1,47 @@
+@import "./style.css";
+
+.discussion-box{
+    padding-left: 300px;
+    margin-top: calc(var(--space-unit) * 13);
+    display: flex;
+    column-gap: calc(var(--space-unit) *20);
+}
+
+.discussion-text {
+    display: flex;
+    align-items:flex-start;
+    align-content: center;
+    column-gap: calc(var(--space-unit) * 5);
+    max-width: 1000px;
+}
+
+.autor{
+    background-color: #404041;
+    padding: var(--space-unit);
+    border-radius: 8px;
+    color: var(--dark-color);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.discussion-text .comments {
+    margin-left: auto;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.reviews {
+    margin-top: calc(var(--space-unit) * 2);
+}
+
+p {
+    margin-top: calc(var(--space-unit) );
+    margin-bottom: calc(var(--space-unit) );
+    justify-items: center;
+}
+
+
+
